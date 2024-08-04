@@ -98,7 +98,7 @@ header {
   width: 100%;
   height: 100%;
 }
-.banner__text__button {
+.main-btn {
   text-decoration: none;
   color: white;
   font-size: 1.1rem;
@@ -111,6 +111,7 @@ header {
   width: fit-content;
   border-radius: 36px;
   border: none;
+  text-wrap: nowrap;
 }
 .banner__img {
   width: 55%;
@@ -268,4 +269,107 @@ header {
   width: 47%;
   margin-inline-start: 1rem;
   margin-bottom: 0.75rem;
+}
+/* ===============ADVANCED================== */
+.advanced {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 3rem 0;
+}
+.advanced__heading {
+  width: 30%;
+  margin: 1rem 0;
+}
+.advanced__slider {
+  width: 65%;
+  overflow: hidden;
+  padding: 1rem;
+}
+.advanced__slider__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.advanced__slider__slide.slide1 {
+  background-image: url(./assets/success-slides1.png);
+}
+.advanced__slider__slide.slide2 {
+  background-image: url(./assets/success-slides2.png);
+}
+.advanced__slider__slide.slide3 {
+  background-image: url(./assets/success-slides3.png);
+}
+.advanced__slider__slide.slide4 {
+  background-image: url(./assets/success-slides4.png);
+}
+.advanced__slider__slide {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}
+.advanced__slider__slide__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.advanced__slider__slide__para {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.advanced-swiper-pagination {
+  width: auto;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/* =================CTA SECTION=============== */
+.cta {
+  padding: 1.5rem 0;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.cta1 {
+  background-image: url(./assets/cta.png);
+}
+.cta__content {
+  width: 100%;
+}
+.cta__title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.cta--bold {
+  font-weight: 800;
+}
+.cta__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta__text__p {
+  font-size: 0.85rem;
+}
+.cta__text__btn {
+  background: transparent linear-gradient(94deg, #f48120 0%, #c55a03 100%) 0% 0%
+    no-repeat padding-box;
+  padding: 0.75rem 3rem;
+  margin-top: 1rem;
 }
