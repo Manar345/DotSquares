@@ -52,8 +52,4 @@ var slider2 = new Swiper(".auto-swiper2", {
       return '<span class="' + className + '"></span>';
     },
   },
-  navigation: {
-    nextEl: ".advanced-swiper-button-next",
-    prevEl: ".advanced-swiper-button-prev",
-  },
 });

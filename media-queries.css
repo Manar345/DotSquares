@@ -23,9 +23,10 @@
   .banner__main {
     justify-content: center;
   }
-  header {
+  header.container {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
   .header__brand {
     width: 75%;
@@ -55,7 +56,8 @@
     width: 33%;
     padding: 2rem 0.5rem;
   }
-  .clients__imgs__img img {
+  .clients__imgs__img img,
+  .demand__cards__card {
     width: 100%;
   }
   .needs__content {
@@ -103,6 +105,9 @@
   }
   .benefits__img--mobile {
     display: block;
+  }
+  .demand__cards {
+    flex-wrap: wrap;
   }
 }
 
