@@ -5,7 +5,7 @@
 }
 @media (min-width: 1100px) {
   .cta__content {
-    width: 70%;
+    width: 65%;
   }
 }
 @media (max-width: 992px) {
@@ -79,12 +79,30 @@
   .advanced__slider__slide {
     height: 15rem;
   }
+  .advanced-swiper-pagination {
+    display: block;
+  }
   .cta__content {
     text-align: center;
   }
   .cta__text {
     flex-direction: column;
     align-items: center;
+  }
+  .partner > * {
+    width: 100%;
+  }
+  .partner__img {
+    order: 2;
+  }
+  .awards__imgs__img {
+    width: 47%;
+  }
+  .benefits__img--large {
+    display: none;
+  }
+  .benefits__img--mobile {
+    display: block;
   }
 }
 

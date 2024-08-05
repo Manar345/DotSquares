@@ -44,11 +44,16 @@ var slider2 = new Swiper(".auto-swiper2", {
     1024: {
       slidesPerView: 3,
     },
-    1200: {
-      slidesPerView: 3.5,
-    },
   },
   pagination: {
     el: ".advanced-swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '"></span>';
+    },
+  },
+  navigation: {
+    nextEl: ".advanced-swiper-button-next",
+    prevEl: ".advanced-swiper-button-prev",
   },
 });
