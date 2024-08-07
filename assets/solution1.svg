@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_826" data-name="Rectangle 826" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="logisticsicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-truck-moving" data-name="Icon awesome-truck-moving" d="M33.977,13.706l-3.2-3.265A3.466,3.466,0,0,0,28.3,9.4H26.25V4.036A1.766,1.766,0,0,0,24.5,2.25H1.75A1.766,1.766,0,0,0,0,4.036v18.75A4.419,4.419,0,0,0,4.375,27.25a4.34,4.34,0,0,0,3.5-1.808,4.325,4.325,0,0,0,3.5,1.808,4.419,4.419,0,0,0,4.375-4.464,4.8,4.8,0,0,0-.087-.893h8.925a4.373,4.373,0,0,0-.087.893,4.376,4.376,0,1,0,8.75,0,4.8,4.8,0,0,0-.087-.893h.962A.887.887,0,0,0,35,21V16.229A3.6,3.6,0,0,0,33.977,13.706ZM4.375,24.571a1.786,1.786,0,0,1,0-3.571,1.786,1.786,0,0,1,0,3.571Zm7,0a1.786,1.786,0,1,1,1.75-1.786A1.773,1.773,0,0,1,11.375,24.571Zm14.875-12.5H28.3a.86.86,0,0,1,.618.262l2.368,2.416H26.25Zm2.625,12.5a1.786,1.786,0,1,1,1.75-1.786A1.773,1.773,0,0,1,28.875,24.571Z" transform="translate(421 4784.495)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

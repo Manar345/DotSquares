@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_833" data-name="Rectangle 833" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="loyaltyicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_material-local-offer" data-name="Icon material-local-offer" d="M29.985,16.319,17.473,3.806A2.763,2.763,0,0,0,15.512,3H5.781A2.789,2.789,0,0,0,3,5.781v9.732a2.774,2.774,0,0,0,.82,1.974L16.333,30a2.763,2.763,0,0,0,1.96.806,2.718,2.718,0,0,0,1.96-.82l9.732-9.732a2.718,2.718,0,0,0,.82-1.96,2.808,2.808,0,0,0-.82-1.974ZM7.866,9.951A2.085,2.085,0,1,1,9.951,7.866,2.083,2.083,0,0,1,7.866,9.951Z" transform="translate(422.097 4783.098)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

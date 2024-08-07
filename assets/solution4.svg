@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_829" data-name="Rectangle 829" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="crmicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_material-dashboard" data-name="Icon material-dashboard" d="M4.5,20.056H16.944V4.5H4.5ZM4.5,32.5H16.944V23.167H4.5Zm15.556,0H32.5V16.944H20.056Zm0-28v9.333H32.5V4.5Z" transform="translate(420.5 4781.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

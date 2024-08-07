@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_828" data-name="Rectangle 828" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="warehouseicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-warehouse" data-name="Icon awesome-warehouse" d="M23.625,16.5H6.394a.376.376,0,0,0-.375.375l0,2.25a.376.376,0,0,0,.375.375H23.625A.376.376,0,0,0,24,19.126v-2.25A.376.376,0,0,0,23.625,16.5Zm0,4.5H6.38A.376.376,0,0,0,6,21.376l0,2.25A.376.376,0,0,0,6.375,24h17.25A.376.376,0,0,0,24,23.626v-2.25A.376.376,0,0,0,23.625,21Zm0-9H6.4a.376.376,0,0,0-.375.375l0,2.25A.376.376,0,0,0,6.4,15H23.625A.376.376,0,0,0,24,14.626v-2.25A.376.376,0,0,0,23.625,12Zm4.992-6.516L15.863.174a2.257,2.257,0,0,0-1.73,0L1.383,5.485A2.255,2.255,0,0,0,0,7.562V23.626A.376.376,0,0,0,.375,24h3.75a.376.376,0,0,0,.375-.375V12a1.517,1.517,0,0,1,1.528-1.5H23.972A1.517,1.517,0,0,1,25.5,12V23.626a.376.376,0,0,0,.375.375h3.75A.376.376,0,0,0,30,23.626V7.562A2.255,2.255,0,0,0,28.617,5.485Z" transform="translate(424 4785.998)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

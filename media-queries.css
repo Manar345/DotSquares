@@ -9,11 +9,18 @@
   }
 }
 @media (max-width: 992px) {
-  .needs_content__card__list li {
-    width: 100%;
+  .logistic__content__btn {
+    gap: 0.5rem;
+  }
+  .logistic__content__btn span {
+    font-size: 1rem;
   }
 }
 @media (max-width: 768px) {
+  .needs_content__card__list li,
+  .cloud__content__card__text__listItems {
+    width: 100%;
+  }
   .banner {
     padding: 2rem 0;
   }
@@ -98,7 +105,7 @@
     order: 2;
   }
   .awards__imgs__img {
-    width: 47%;
+    width: 45%;
   }
   .benefits__img--large {
     display: none;
@@ -109,10 +116,56 @@
   .demand__cards {
     flex-wrap: wrap;
   }
+  .logistic__content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .logistic__content__btns {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #e7e7e7;
+    padding: 0.3rem;
+  }
+  .logistic__content__btn {
+    padding: 0.5rem;
+  }
+  .logistic__content__btn img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .logistic__content__btn span {
+    display: none;
+  }
+  .logistic__content__cards {
+    width: 100%;
+  }
+  .logistic__content__card__title h3 {
+    font-size: 1.5rem;
+  }
+  .cloud__content__card__text {
+    width: 100%;
+  }
+  .cloud__content__card__img {
+    display: none;
+  }
 }
 
 @media (max-width: 425px) {
   .header__brand {
+    width: 100%;
+  }
+  .logistic__content__btn {
+    padding: 0.25rem;
+  }
+  .logistic__content__card__img {
+    display: none;
+  }
+  .logistic__content__card__list__item,
+  .cloud__content__card__text__btn {
     width: 100%;
   }
 }

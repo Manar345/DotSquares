@@ -1,3 +1,4 @@
+// =======================SWIPER=============================================
 var slider1 = new Swiper(".auto-swiper", {
   loop: true,
   speed: 1000,
@@ -48,8 +49,25 @@ var slider2 = new Swiper(".auto-swiper2", {
   pagination: {
     el: ".advanced-swiper-pagination",
     clickable: true,
-    renderBullet: function (index, className) {
+    renderBullet: function (className) {
       return '<span class="' + className + '"></span>';
     },
   },
+});
+//=============================================================
+const logisticContent = document.querySelectorAll(".logistic__content__card");
+const btnsContainer = document.querySelector(".logistic__content__btns");
+const logisticBtn = document.querySelectorAll(".logistic__content__btn");
+
+logisticBtn.forEach((btn, btnIndex) => {
+  btn.addEventListener("click", () => {
+    btnsContainer.querySelector(".active").classList.remove("active");
+    btn.classList.add("active");
+    logisticContent.forEach((contentEl, i) => {
+      contentEl.classList.add("active");
+      if (i !== btnIndex) {
+        contentEl.classList.remove("active");
+      }
+    });
+  });
 });

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_827" data-name="Rectangle 827" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="inventoryicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-box" data-name="Icon awesome-box" d="M26.263,9.515,23.654,1.691A2.467,2.467,0,0,0,21.309,0H14.02V9.9h12.3A2.354,2.354,0,0,0,26.263,9.515ZM12.371,0H5.082A2.467,2.467,0,0,0,2.737,1.691L.129,9.515A2.354,2.354,0,0,0,.067,9.9h12.3ZM0,11.546V23.917a2.475,2.475,0,0,0,2.474,2.474H23.917a2.475,2.475,0,0,0,2.474-2.474V11.546Z" transform="translate(425.804 4785.804)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

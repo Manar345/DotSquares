@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_832" data-name="Rectangle 832" width="35" height="35" transform="translate(421 4782)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48120"/>
+      <stop offset="1" stop-color="#ffbe87"/>
+    </linearGradient>
+  </defs>
+  <g id="posicon" transform="translate(-421 -4782)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-shopping-cart" data-name="Icon awesome-shopping-cart" d="M24.577,14.022l2.2-9.68a1.117,1.117,0,0,0-1.089-1.364H7.409L6.982.893A1.117,1.117,0,0,0,5.888,0H1.117A1.117,1.117,0,0,0,0,1.117v.745A1.117,1.117,0,0,0,1.117,2.978H4.369L7.638,18.961a2.606,2.606,0,1,0,3.12.4h9.756a2.605,2.605,0,1,0,2.96-.484l.257-1.13a1.117,1.117,0,0,0-1.089-1.364H10.15l-.3-1.489H23.488A1.117,1.117,0,0,0,24.577,14.022Z" transform="translate(425.097 4788.587)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
