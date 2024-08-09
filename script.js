@@ -49,11 +49,30 @@ var slider2 = new Swiper(".auto-swiper2", {
   pagination: {
     el: ".advanced-swiper-pagination",
     clickable: true,
-    renderBullet: function (className) {
+    renderBullet: function (index, className) {
       return '<span class="' + className + '"></span>';
     },
   },
 });
+var slider3 = new Swiper(".projects__slider", {
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 2500,
+  },
+  pagination: {
+    el: ".projects-swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '"></span>';
+    },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 //=============================================================
 const logisticContent = document.querySelectorAll(".logistic__content__card");
 const btnsContainer = document.querySelector(".logistic__content__btns");
@@ -63,6 +82,7 @@ logisticBtn.forEach((btn, btnIndex) => {
   btn.addEventListener("click", () => {
     btnsContainer.querySelector(".active").classList.remove("active");
     btn.classList.add("active");
+
     logisticContent.forEach((contentEl, i) => {
       contentEl.classList.add("active");
       if (i !== btnIndex) {
