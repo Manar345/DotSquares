@@ -77,7 +77,6 @@ var slider4 = new Swiper(".auto-swiper3", {
   speed: 1000,
   autoplay: {
     delay: 2000,
-    pauseOnMouseEnter: "false",
   },
   spaceBetween: 25,
 
