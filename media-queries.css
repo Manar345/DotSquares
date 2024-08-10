@@ -3,7 +3,7 @@
     order: 2;
   }
   .cta.final {
-    margin-top: 0;
+    margin-block: 0;
   }
 }
 @media (min-width: 1100px) {
@@ -140,7 +140,8 @@
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
   }
-  .logistic__content__btn {
+  .logistic__content__btn,
+  .cloud__content__card__text__btn {
     padding: 0.5rem;
   }
   .logistic__content__btn img {
@@ -182,6 +183,14 @@
   }
   .projects__slider__slide__text__list {
     width: 90%;
+  }
+  .testimonial__heading,
+  .testimonial__slider {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .testimonial__slider__slide {
+    padding: 1rem;
   }
 }
 

@@ -72,6 +72,31 @@ var slider3 = new Swiper(".projects__slider", {
     prevEl: ".swiper-button-prev",
   },
 });
+var slider4 = new Swiper(".auto-swiper3", {
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 2000,
+    pauseOnMouseEnter: "false",
+  },
+  spaceBetween: 25,
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+  },
+  pagination: {
+    el: ".testimonial-swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '"></span>';
+    },
+  },
+});
 
 //=============================================================
 const logisticContent = document.querySelectorAll(".logistic__content__card");
