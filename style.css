@@ -255,6 +255,8 @@ header {
 .needs__content__card__img img {
   width: 85%;
   object-fit: cover;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
 }
 .needs__content__card__title {
   font-size: 1.5rem;
@@ -756,4 +758,45 @@ header {
   align-self: flex-end;
   font-size: 1.35rem;
   font-weight: 700;
+}
+
+/* =================footer================ */
+
+footer {
+  padding-block: 2rem;
+  background-color: #181818;
+  color: #fff;
+}
+.footer__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__img__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer__icons a {
+  text-decoration: none;
+}
+.footer__icons svg {
+  fill: #fbfbfb;
+  width: 40px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.footer__icons svg:hover {
+  fill: #f48120;
+  cursor: pointer;
+}
+footer hr {
+  margin-block: 1rem;
+}
+footer p {
+  text-align: center;
 }

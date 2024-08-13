@@ -192,6 +192,10 @@
   .testimonial__slider__slide {
     padding: 1rem;
   }
+  .footer__img {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 425px) {
@@ -210,5 +214,8 @@
   .logistic__content__card__list__item,
   .cloud__content__card__text__btn {
     width: 100%;
+  }
+  .footer__img__logo {
+    flex-direction: column;
   }
 }
