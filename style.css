@@ -255,8 +255,8 @@ header {
 .needs__content__card__img img {
   width: 85%;
   object-fit: cover;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
 }
 .needs__content__card__title {
   font-size: 1.5rem;
